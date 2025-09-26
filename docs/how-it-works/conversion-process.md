@@ -25,4 +25,3 @@ Converting your bank statements into structured data with **Bank Statement Conve
 
 > 💡 Tip: Make sure your document is clear and legible for optimal OCR accuracy.
 
-[Back to AI Model Overview](how-our-ai-model-works)

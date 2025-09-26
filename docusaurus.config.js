@@ -88,11 +88,7 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
-          {
-            label: 'Documentation',
-            to: '/doc/intro',
-            position: 'left',
-          },
+          
           {
             label: 'Login',
             href: 'https://bankstmtconverter.com/login',
