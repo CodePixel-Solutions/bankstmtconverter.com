@@ -12,8 +12,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'Documentation Of Bankstmtconverter.com',
   tagline: 'Statements Made Simple',
-  favicon: 'img/favicon.ico',
-  trailingSlash: false,   
+  favicon: 'img/logo.svg',
+  trailingSlash: false,
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4
@@ -47,7 +47,7 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-           routeBasePath: '/', 
+           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
@@ -80,7 +80,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/logo.svg',
       navbar: {
         title: 'Bankstmtconverter.com',
         logo: {
@@ -89,11 +89,17 @@ const config = {
         },
         items: [
           {
+            label: 'Documentation',
+            to: '/doc/intro',
+            position: 'left',
+          },
+          {
             label: 'Login',
             href: 'https://bankstmtconverter.com/login',
              position: 'right',
             className: 'button button--primary button-custom-login text-white',
           },
+
         ],
       },
       footer: {
