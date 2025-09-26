@@ -47,7 +47,7 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-           routeBasePath: '/',
+           routeBasePath: 'doc',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
@@ -88,11 +88,7 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
-          {
-            label: 'Documentation',
-            to: '/doc/intro',
-            position: 'left',
-          },
+          
           {
             label: 'Login',
             href: 'https://bankstmtconverter.com/login',

@@ -20,4 +20,3 @@ In **Bank Statement Converter**, OCR works together with AI to extract bank stat
 
 > 🔍 Note: OCR accuracy depends on the quality and clarity of the input document.
 
-[Back to AI Model Overview](how-our-ai-model-works)
