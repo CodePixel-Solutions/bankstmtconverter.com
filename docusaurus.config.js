@@ -30,6 +30,10 @@ const config = {
   organizationName: 'CodePixel-Solutions', // Usually your GitHub org/user name.
   projectName: 'bankstmtconverter.com', // Usually your repo name.
 
+  customFields: {
+    cname: 'bankstmtconverter.com',
+  },
+
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
