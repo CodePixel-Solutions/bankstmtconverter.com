@@ -23,7 +23,7 @@ const config = {
   url: 'https://bankstmtconverter.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/doc',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -52,7 +52,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/CodePixel-Solutions/bankstmtconverter.com/edit/main/',
         },
         blog: {
           showReadingTime: true,
@@ -63,7 +63,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/CodePixel-Solutions/bankstmtconverter.com/edit/main/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -88,6 +88,11 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
+          {
+            label: 'Documentation',
+            to : 'intro',
+            position: 'left',
+          },
           
           {
             label: 'Login',
@@ -113,7 +118,7 @@ const config = {
             items: [
                {
                 label: 'Linkedin',
-                href: 'https://linkedin.com/invite/docusaurus',
+                href: 'https://www.linkedin.com/company/codeplug-technologies',
               },
               {
                 label: 'Instagram',
@@ -128,7 +133,7 @@ const config = {
   
               {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                href: 'https://discord.gg/bankstmtconverter',
               },
               {
                 label: 'X',
