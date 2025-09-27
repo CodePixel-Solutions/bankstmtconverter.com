@@ -13,12 +13,12 @@ This page explains how to upload files.
 - If a file upload fails, your credits will be **restored**.  
 - **Starter**: Files are processed in a queue (one by one).  
 - **Pro**: Files are processed in parallel.  
-- **Enterprise**: Files are processed in parallel.  
+- **Bussiness**: Files are processed in parallel.  
 
 ### Plan Details
 
-| Plan       | File Size Limit | Processing Mode | File Types         |
-| ---------- | --------------: | --------------- | ------------------ |
-| Starter    | Max 5 MB        | Queue           | PDF, JPG, PNG, BMP |
-| Pro        | Max 20 MB       | Parallel        | PDF, JPG, PNG, BMP |
-| Enterprise | Max 9.8 MB      | Parallel        | PDF, JPG, PNG, BMP |
+| Plan       | File Size Limit | Processing Mode | File Types         | Data Retention |
+| ---------- | --------------: | --------------- | ------------------ | -------------- |
+| Starter    | Max 5 MB        | Queue           | PDF, JPG, PNG, BMP | 30 days        |
+| Pro        | Max 20 MB       | Parallel        | PDF, JPG, PNG, BMP | 90 days        |
+| Bussiness  | Max 9.8 MB      | Parallel        | PDF, JPG, PNG, BMP | 120 days       |

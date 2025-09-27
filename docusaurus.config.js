@@ -124,6 +124,28 @@ const config = {
                 label: 'Linkedin',
                 href: 'https://www.linkedin.com/company/codeplug-technologies',
               },
+
+               { label: 'GitHub', href: 'https://github.com/codeplugtech' },
+              
+              {
+                label: 'Discord',
+                href: 'https://discord.gg/bankstmtconverter',
+              },
+              {
+                label: 'Reddit',
+                href: 'https://www.reddit.com/r/BankStmtConverter',
+              },
+              
+            ],
+          },
+          {
+            title: 'More',
+            items: [
+             
+              {
+                label: 'X',
+                href: 'https://x.com/docusaurus',
+              },
               {
                 label: 'Instagram',
                 href:'https://instagram.com/invite/docusaurus'
@@ -134,21 +156,6 @@ const config = {
                 href: 'https://facebook.com/invite/docusaurus'
 
               },
-  
-              {
-                label: 'Discord',
-                href: 'https://discord.gg/bankstmtconverter',
-              },
-              {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              { label: 'GitHub', href: 'https://github.com/codeplugtech' },
             ],
           },
           {
