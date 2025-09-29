@@ -1,55 +1,49 @@
-name: Deploy Docusaurus to GitHub Pages
+name: Deploy Docusaurus Docs to Cloudflare Pages
 
 on:
   push:
-    branches: [main]  # or your default branch
-
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-
-concurrency:
-  group: "pages"
-  cancel-in-progress: true
+    branches:
+      - main   # or whichever branch you use for docs
 
 jobs:
   deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
+
     steps:
-      # Step 1: Checkout code
+      # 1. Checkout repo
       - name: Checkout
         uses: actions/checkout@v4
 
-      # Step 2: Setup Node.js
-      - name: Set up Node.js
+      # 2. Setup Node.js
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20
-          cache: 'npm'
+          node-version: 18
 
-      # Step 3: Install dependencies
+      # 3. Install dependencies & build Docusaurus
       - name: Install dependencies
         run: npm ci
 
-      # Step 4: Build Docusaurus
       - name: Build Docusaurus
         run: npm run build
 
-      # Step 5: Setup GitHub Pages
-      - name: Setup Pages
-        uses: actions/configure-pages@v4
-
-      # Step 6: Upload build artifact
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+      # 4. Deploy to Cloudflare Pages using Wrangler
+      - name: Publish to Cloudflare Pages
+        uses: cloudflare/wrangler-action@v3
         with:
-          path: build  # Docusaurus build output
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy ./build --project-name=bankstmt-docs
 
-      # Step 7: Deploy to GitHub Pages
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+      # 5. Purge only /docs cache
+      - name: Purge Cloudflare Docs Cache
+        run: |
+          curl -X POST "https://api.cloudflare.com/client/v4/zones/${{ secrets.CLOUDFLARE_ZONE_ID }}/purge_cache" \
+          -H "Authorization: Bearer ${{ secrets.CLOUDFLARE_API_TOKEN }}" \
+          -H "Content-Type: application/json" \
+          --data '{
+            "files": [
+              "https://bankstmtconverter.com/docs",
+              "https://bankstmtconverter.com/docs/*"
+            ]
+          }'
