@@ -81,7 +81,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'docs/img/logo.svg',
+      image: 'img/logo.svg',
       navbar: {
         title: 'Bankstmtconverter.com',
         logo: {
