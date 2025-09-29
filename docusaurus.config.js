@@ -86,7 +86,7 @@ const config = {
         title: 'Bankstmtconverter.com',
         logo: {
           alt: 'My Site Logo',
-          src: 'docs/img/logo.svg',
+          src: 'img/logo.svg',
         },
         items: [
           {
