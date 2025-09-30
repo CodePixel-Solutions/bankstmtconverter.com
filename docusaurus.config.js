@@ -12,7 +12,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'Documentation Of Bankstmtconverter.com',
   tagline: 'Statements Made Simple',
-  favicon: 'img/logo.svg',
+  favicon: '/img/logo.svg',
   trailingSlash: false,
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -81,12 +81,12 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/logo.svg',
+      image: '/img/logo.svg',
       navbar: {
         title: 'Bankstmtconverter.com',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: '/img/logo.svg',
         },
         items: [
           {
