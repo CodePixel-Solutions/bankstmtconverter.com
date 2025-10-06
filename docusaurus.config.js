@@ -37,11 +37,15 @@ const config = {
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
-  i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+i18n: {
+  defaultLocale: 'en',
+  locales: ['en', 'de'], //Germany
+  localeConfigs: {
+    de: {
+      label: 'Deutsch',
+    },
   },
-
+},
   presets: [
     [
       'classic',
@@ -49,7 +53,7 @@ const config = {
       ({
         docs: {
            routeBasePath: '/',
-          sidebarPath: require.resolve('./sidebars.js'),
+           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
@@ -94,6 +98,23 @@ const config = {
             to : '/intro',
             position: 'left',
           },
+
+          {
+          type: 'localeDropdown',
+          position: 'right',
+        },
+
+          {
+            type: 'search',
+            position: 'right',
+          },
+
+          {
+            href: 'https://github.com/CodePixel-Solutions/bankstmtconverter.com',
+            position: 'right',
+            label: 'GitHub', // optional text
+            'aria-label': 'GitHub repository',
+          },
           
           {
             label: 'Login',
@@ -101,70 +122,90 @@ const config = {
              position: 'right',
             className: 'button button--primary button-custom-login text-white',
           },
-
         ],
       },
+      algolia: {
+      appId: 'YOUR_ALGOLIA_APP_ID',
+      apiKey: 'YOUR_ALGOLIA_SEARCH_API_KEY',
+      indexName: 'YOUR_INDEX_NAME',
+    },
       footer: {
         style: 'dark',
         links: [
-            {
-      title: 'About',
-      items: [
-        { label: 'BankStmtConverter', to: '/' },
-      
-      ],
-    },
           {
-            title: 'Community',
-            items: [
-               {
-                label: 'Linkedin',
-                href: 'https://www.linkedin.com/company/codeplug-technologies',
-              },
-
-               { label: 'GitHub', href: 'https://github.com/codeplugtech' },
-              
-              {
-                label: 'Discord',
-                href: 'https://discord.gg/bankstmtconverter',
-              },
-              {
-                label: 'Reddit',
-                href: 'https://www.reddit.com/r/BankStmtConverter',
-              },
-              
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-             
-              {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
-              },
-              {
-                label: 'Instagram',
-                href:'https://instagram.com/invite/docusaurus'
-
-              },
-              {
-                label: 'Facebook',
-                href: 'https://facebook.com/invite/docusaurus'
-
-              },
-            ],
-          },
-          {
-          title: 'Legal',
+          title: 'About Us',
           items: [
-            { label: 'Privacy Policy', href: 'https://bankstmtconverter.com/privacy-policy' },
-            { label: 'Terms of Service', href: 'https://bankstmtconverter.com/terms' },
+           {
+          html: `<a href="https://bankstmtconverter.com/" target="_blank" >
+                  <img src="/img/logo.png" alt="BankstmtConverter " />
+                </a>`,
+          },
+          {
+  html: `
+    <div style="display: flex; gap: 10px; align-items: center; padding-top: 10px;">
+      <a href="https://www.capterra.com/p/10022302/BankstmtConverter/reviews/" target="_blank" rel="noopener noreferrer">
+        <img src="https://brand-assets.capterra.com/badge/d6fdf049-42f6-4918-ac80-f824f360e63e.svg" 
+             alt="BankstmtConverter on Capterra" width="150" height="50" />
+      </a>
+      <a href="https://www.getapp.com/emerging-technology-software/a/bankstmtconverter/reviews/" target="_blank" rel="noopener noreferrer">
+        <img src="https://brand-assets.getapp.com/badge/722a7ce4-c4d5-46a7-a6c7-62f439fdfbc8.png" 
+             alt="BankstmtConverter on GetApp" width="80" height="50" />
+      </a>
+    </div>
+  `,
+}
+          
           ],
         },
+          {
+            title: 'Resources',
+            items: [
+              {
+                label: 'Home',
+                href: 'https://bankstmtconverter.com/',
+              },
+              {
+                label: 'Feature',
+                href: 'https://bankstmtconverter.com/#features',
+              },
+               {
+                label: 'Pricing',
+                href: 'https://bankstmtconverter.com/#pricing',
+              },
+              {
+                label: 'Free Tools',
+                href: 'https://bankstmtconverter.com/tools',
+              },
+              {
+                label: 'Blog',
+                href: 'https://bankstmtconverter.com/blog',
+              },
+              {
+                label: 'Product Updates',
+                href: 'https://bankstmtconverter.com/bankstmtconverter-changelog',
+              },
+            ],
+          },
+          {
+            title: 'Legal',
+            items: [
+              {
+                label: 'Contact Us',
+                href: 'https://bankstmtconverter.com/contact-us',
+              },
+              {
+                label: 'Legal/Imprint',
+                href: 'https://bankstmtconverter.com/imprint',
+              },
+               { label: 'Terms of Service', href: 'https://bankstmtconverter.com/terms' },
+               { label: 'Privacy Policy', href: 'https://bankstmtconverter.com/privacy-policy' },
+               { label: 'security', href: 'https://bankstmtconverter.com/security' },
+            ],
+          },
+          
         ],
         copyright:`
-        <div style="text-align:center; padding-top:10px;">
+        <div style="text-align:center; padding-top: 20px;">
           CodePixel Solutions Private Limited &copy; ${new Date().getFullYear()} <br/>
         </div>
       `,

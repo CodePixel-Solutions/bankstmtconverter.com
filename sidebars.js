@@ -35,7 +35,7 @@ const sidebars = {
       ],
   },
   'home',
-    'features',
+  'features',
   {
     type: 'category',
       label: 'How It Works',

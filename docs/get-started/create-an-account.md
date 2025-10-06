@@ -7,7 +7,8 @@ title: How to Create an Account
 
 Creating an account on **Bank Statement Converter** is quick and easy. Follow these steps to get started:
 
-1. Visit the [SignUp ](https://bankstmtconverter.com/register).  
+1. Visit the [SignUp](https://bankstmtconverter.com/register).
+2. Login with Google [Google](https://bankstmtconverter.com/register).  
 2. Enter your **Full name**, **Email address**, and **Password**.  
 3. Agree to the [Terms of Service](https://bankstmtconverter.com/terms) and [Privacy Policy](https://bankstmtconverter.com/privacy-policy).  
 4. Verify your email by clicking the **verification link** sent to your Mail inbox.  

@@ -114,3 +114,6 @@ Follow the screenshots below for a visual guide.
 
 4. Once the email is received in the **Mailbox**, it is automatically passed to the **Statements**.  
 ![statement](/img/statements.png)
+
+
+
