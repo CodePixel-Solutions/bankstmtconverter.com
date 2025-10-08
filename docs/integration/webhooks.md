@@ -178,3 +178,10 @@ Follow the screenshot above for a visual guide.
 4. Click Logs in the options menu to view your **Webhook Logs**.
 
 ![logs](/img/logs.png)
+
+
+:::note
+Follow the video for a step-by-step guide.
+:::
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nglpTMgxV6M?si=jJmj9YWj5m0LZ4gj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
