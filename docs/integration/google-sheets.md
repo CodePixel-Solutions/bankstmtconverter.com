@@ -75,6 +75,13 @@ Follow the screenshot above for a visual guide.
 
       ![result](/img/result.png)
 
+:::note
+Follow the video for a step-by-step guide.
+:::
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jxXozbTSVJw?si=Ew4WdBF5_DzKA3c8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
 
   
 
