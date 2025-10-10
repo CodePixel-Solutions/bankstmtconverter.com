@@ -1,0 +1,22 @@
+{
+  "title": {
+    "message": "Bankstmtconverter.com",
+    "description": "Der Titel in der Navigationsleiste"
+  },
+  "logo.alt": {
+    "message": "Mein Seitenlogo",
+    "description": "Der Alt-Text des Navigationsleisten-Logos"
+  },
+  "item.label.Documentation": {
+    "message": "Dokumentation",
+    "description": "Navigationsleisten-Element mit der Bezeichnung Dokumentation"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navigationsleisten-Element mit der Bezeichnung GitHub"
+  },
+  "item.label.Login": {
+    "message": "Anmelden",
+    "description": "Navigationsleisten-Element mit der Bezeichnung Anmelden"
+  }
+}

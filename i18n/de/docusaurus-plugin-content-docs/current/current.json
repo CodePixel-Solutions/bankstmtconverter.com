@@ -1,0 +1,130 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Get Started": {
+    "message": "Get Started",
+    "description": "The label for category Get Started in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.create-an-account": {
+    "message": "So erstellen Sie ein Konto",
+    "description": "The label for category Get Started in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.dashboard-overview": {
+    "message": "Dashboard Übersicht",
+    "description": "The label for category Get Started in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.How To Use Bankstmt Converter": {
+    "message": "How To Use Bankstmt Converter",
+    "description": "The label for category How To Use Bankstmt Converter in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.supported-formats": {
+    "message": "Unterstützte Formate",
+    "description": "The label for category supported-formats in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.upload-first-document": {
+    "message": "So laden Sie Ihr erstes Dokument hoch",
+    "description": "The label for category supported-formats in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.How It Works": {
+    "message": "How It Works",
+    "description": "The label for category How It Works in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.ai-model-works": {
+    "message": "Wie unser KI-Modell funktioniert",
+    "description": "The label for category ai-model-works in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.conversion-process": {
+    "message": "Schritt-für-Schritt-Konvertierungsprozess",
+    "description": "The label for category conversion-processs in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.ocr-processing": {
+    "message": "OCR-Verarbeitung verstehen",
+    "description": "The label for category ocr-processing in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Integrations": {
+    "message": "Integrations",
+    "description": "The label for category Integrations in sidebar tutorialSidebar"
+  },
+   "sidebar.tutorialSidebar.category.google-sheets": {
+    "message": "Google Sheets",
+    "description": "The label for category Google Sheets in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.webhooks": {
+    "message": "Webhooks",
+    "description": "The label for category Webhooks in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Settings": {
+    "message": "Settings",
+    "description": "The label for category Settings in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.billing-invoice": {
+    "message": "Abrechnung & Rechnung",
+    "description": "The label for category billing-invoice in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.notification-settings": {
+    "message": "Benachrichtigungseinstellungen",
+    "description": "The label for category notification-settings in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.security": {
+    "message": "Sicherheit",
+    "description": "The label for category security in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Auto Email Forwarding": {
+    "message": "Auto Email Forwarding",
+    "description": "The label for category Auto Email Forwarding in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Release Notes": {
+    "message": "Release Notes",
+    "description": "The label for category Release Notes in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.latest-updates": {
+    "message": "Neueste Updates",
+    "description": "The label for category latest-updates in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.version-history": {
+    "message": "Versionsverlauf",
+    "description": "The label for category version-history in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.features": {
+    "message": "Hauptmerkmale",
+    "description": "The label for category features in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.faqs": {
+    "message": "FAQs",
+    "description": "The label for category faqs in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.data-security-privacy": {
+    "message": "Datensicherheit & Datenschutz",
+    "description": "The label for category data-security-privacy in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.contact-support": {
+    "message": "Kontakt & Support",
+    "description": "The label for category contact-support in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.api-key": {
+    "message": "API",
+    "description": "The label for category api-key in sidebar tutorialSidebar"
+  },
+   "sidebar.tutorialSidebar.home": {
+    "message": "Datei-Upload",
+    "description": "The label for category home in sidebar tutorialSidebar"
+  },
+   "sidebar.tutorialSidebar.intro": {
+    "message": "Einführung",
+    "description": "The label for category intro in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.mailbox": {
+    "message": "Mailbox",
+    "description": "The label for category mailbox in sidebar tutorialSidebar"
+  },
+   "sidebar.tutorialSidebar.statement": {
+    "message": "Kontoauszug",
+    "description": "The label for category statement in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.tools": {
+    "message": "Kostenlose Tools",
+    "description": "The label for category tools in sidebar tutorialSidebar"
+  }
+}

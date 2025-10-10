@@ -1,0 +1,63 @@
+{
+  "link.title.About Us": {
+    "message": "Über uns",
+    "description": "Der Titel der Fußzeilen-Linkspalte mit title=Über uns in der Fußzeile"
+  },
+  "link.title.Resources": {
+    "message": "Ressourcen",
+    "description": "Der Titel der Fußzeilen-Linkspalte mit title=Ressourcen in der Fußzeile"
+  },
+  "link.title.Legal": {
+    "message": "Rechtliches",
+    "description": "Der Titel der Fußzeilen-Linkspalte mit title=Rechtliches in der Fußzeile"
+  },
+  "link.item.label.Home": {
+    "message": "Startseite",
+    "description": "Die Bezeichnung des Fußzeilen-Links mit label=Startseite, der zu https://bankstmtconverter.com/ führt"
+  },
+  "link.item.label.Feature": {
+    "message": "Funktionen",
+    "description": "Die Bezeichnung des Fußzeilen-Links mit label=Funktionen, der zu https://bankstmtconverter.com/#features führt"
+  },
+  "link.item.label.Pricing": {
+    "message": "Preise",
+    "description": "Die Bezeichnung des Fußzeilen-Links mit label=Preise, der zu https://bankstmtconverter.com/#pricing führt"
+  },
+  "link.item.label.Free Tools": {
+    "message": "Kostenlose Tools",
+    "description": "Die Bezeichnung des Fußzeilen-Links mit label=Kostenlose Tools, der zu https://bankstmtconverter.com/tools führt"
+  },
+  "link.item.label.Blog": {
+    "message": "Blog",
+    "description": "Die Bezeichnung des Fußzeilen-Links mit label=Blog, der zu https://bankstmtconverter.com/blog führt"
+  },
+  "link.item.label.Product Updates": {
+    "message": "Produktaktualisierungen",
+    "description": "Die Bezeichnung des Fußzeilen-Links mit label=Produktaktualisierungen, der zu https://bankstmtconverter.com/bankstmtconverter-changelog führt"
+  },
+  "link.item.label.Contact Us": {
+    "message": "Kontakt",
+    "description": "Die Bezeichnung des Fußzeilen-Links mit label=Kontakt, der zu https://bankstmtconverter.com/contact-us führt"
+  },
+  "link.item.label.Legal/Imprint": {
+    "message": "Rechtliches/Impressum",
+    "description": "Die Bezeichnung des Fußzeilen-Links mit label=Rechtliches/Impressum, der zu https://bankstmtconverter.com/imprint führt"
+  },
+  "link.item.label.Terms of Service": {
+    "message": "Nutzungsbedingungen",
+    "description": "Die Bezeichnung des Fußzeilen-Links mit label=Nutzungsbedingungen, der zu https://bankstmtconverter.com/terms führt"
+  },
+  "link.item.label.Privacy Policy": {
+    "message": "Datenschutzerklärung",
+    "description": "Die Bezeichnung des Fußzeilen-Links mit label=Datenschutzerklärung, der zu https://bankstmtconverter.com/privacy-policy führt"
+  },
+  "link.item.label.security": {
+    "message": "Sicherheit",
+    "description": "Die Bezeichnung des Fußzeilen-Links mit label=Sicherheit, der zu https://bankstmtconverter.com/security führt"
+  },
+  "copyright": {
+    "message": "\n        <div style=\"text-align:center; padding-top: 20px;\">\n          CodePixel Solutions Private Limited &copy; 2025 <br/>\n        </div>\n      ",
+    "description": "Das Urheberrecht in der Fußzeile"
+  }
+}
+
