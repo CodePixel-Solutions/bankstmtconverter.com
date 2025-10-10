@@ -117,7 +117,7 @@ Follow the screenshots below for a visual guide.
 
 
 :::note
-Follow the video for a step-by-step guide.
+Follow the Tutorial video for a step-by-step guide.
 :::
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/KxluH-dPcjs?si=Sv9r5i4Keqwy4mxT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

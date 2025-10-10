@@ -11,7 +11,14 @@ BankStmtConverter provides an API to integrate seamless bank statement conversio
 
 - Sign in to your BankStmtConverter account.  
 - Navigate to the **API Settings** section in your dashboard.  
-- Generate a new API Key and keep it secure.  
+- Add new API Key and keep it secure.  
 - Use this API Key to authenticate your requests.
 
 
+## Reference
+
+:::note
+Follow the screenshots below for a visual guide.  
+:::
+
+![apikey](/img/APIkey.png)

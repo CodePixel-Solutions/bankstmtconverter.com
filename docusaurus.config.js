@@ -136,24 +136,29 @@ i18n: {
           title: 'About Us',
           items: [
            {
+            
           html: `<a href="https://bankstmtconverter.com/" target="_blank" >
-                  <img src="/img/logo.png" alt="BankstmtConverter " />
+                  <img src="/docs/img/logo.png" alt="BankstmtConverter" width="205" />
                 </a>`,
           },
           {
-  html: `
-    <div style="display: flex; gap: 10px; align-items: center; padding-top: 10px;">
-      <a href="https://www.capterra.com/p/10022302/BankstmtConverter/reviews/" target="_blank" rel="noopener noreferrer">
-        <img src="https://brand-assets.capterra.com/badge/d6fdf049-42f6-4918-ac80-f824f360e63e.svg" 
-             alt="BankstmtConverter on Capterra" width="150" height="50" />
-      </a>
-      <a href="https://www.getapp.com/emerging-technology-software/a/bankstmtconverter/reviews/" target="_blank" rel="noopener noreferrer">
-        <img src="https://brand-assets.getapp.com/badge/722a7ce4-c4d5-46a7-a6c7-62f439fdfbc8.png" 
-             alt="BankstmtConverter on GetApp" width="80" height="50" />
-      </a>
-    </div>
-  `,
-}
+                html: `<p style="padding-top: 6px;">Convert your bank statements to Excel or CSV with ease! BankStmtConverter.com offers a quick and secure solution to manage your financial data. Try it now!</p>`
+          },
+          
+          {
+        html: `
+          <div style="display: flex; gap: 10px; align-items: center; padding-top: 10px;">
+            <a href="https://www.capterra.com/p/10022302/BankstmtConverter/reviews/" target="_blank" rel="noopener noreferrer">
+              <img src="https://brand-assets.capterra.com/badge/d6fdf049-42f6-4918-ac80-f824f360e63e.svg" 
+                  alt="BankstmtConverter on Capterra" width="150" height="50" />
+            </a>
+            <a href="https://www.getapp.com/emerging-technology-software/a/bankstmtconverter/reviews/" target="_blank" rel="noopener noreferrer">
+              <img src="https://brand-assets.getapp.com/badge/722a7ce4-c4d5-46a7-a6c7-62f439fdfbc8.png" 
+                  alt="BankstmtConverter on GetApp" width="80" height="50" />
+            </a>
+          </div>
+        `,
+        }
           
           ],
         },

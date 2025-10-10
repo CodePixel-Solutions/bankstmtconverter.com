@@ -44,7 +44,8 @@ This helps keep your account safe and secure.
 Follow the screenshots and video for a step-by-step guide.
 :::
 
-1. Update your Password
-[UpdatePassword](/img/updatepassword.png)
+1. Open and upgrade your Password
+
+![UpdatePassword](/img/updatepassword.png)
 
 
